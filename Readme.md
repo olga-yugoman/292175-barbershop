@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Ольга Югоман](https://up.htmlacademy.ru/htmlcss/17/user/292175).
+* Наставник: [Денис Байдаров](https://htmlacademy.ru/profile/4er).
 
 ---
 
