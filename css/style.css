@@ -16,3 +16,144 @@ body {
 	font-size: 30px;
 	line-height: 42px;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+	min-height: 70px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px;
+}
+
+.index-logo {
+	width: 368px;
+  	height: 204px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.features-item:last-child {
+	margin-right: 0;
+}
+
+.index-content {
+	margin-bottom: 35px;
+  	padding: 50px 80px;
+}
+
+.index-content-left {
+	float: left;
+	width: 380px;
+}
+
+.index-content-right {
+	float: right;
+	width: 300px;
+}
+
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+  	padding-bottom: 40px;
+}
+
+.footer-contacts {
+  	float: left;
+  	width: 320px;
+  	margin-right: 60px;
+}
+
+ .footer-social {
+ 	float: left;
+ 	width: 180px;
+}
+
+ .footer-copyright {
+ 	float: right;
+ 	width: 180px;
+}
+
+.inner-main-header {
+	margin-bottom: 25px;
+}
+
+.breadcrumbs {
+	margin-bottom: 25px;
+}
+
+.filter {
+	float: left;
+	width: 220px;
+}
+
+.items {
+	float: right;
+	width: 715px;
+}
+
+.item-card {
+	position: relative;
+  	display: inline-block;
+  	width: 220px;
+}
+
+.item-card h2 {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.pagination {
+	clear: right;
+	margin-left: 225px;
+}
+
+li {
+	list-style-type: none;
+	position: relative;
+  	display: inline-block;
+}
+
+ul {
+	padding-left: 0;
+}
+
+.content-left-50 {
+	float: left;
+	width: 450px;
+}
+
+.content-right-50 {
+	float: right;
+	width: 450px;
+}
