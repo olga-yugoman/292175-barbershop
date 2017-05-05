@@ -26,6 +26,12 @@ body > * > * {
   background: rgba(255, 45, 82, 0.2);
  }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -132,11 +138,13 @@ body > * > * {
 .filter {
 	float: left;
 	width: 220px;
+	margin-right: 20px;
 }
 
 .items {
 	float: right;
-	width: 715px;
+	width: 700px;
+	font-size: 0px;
 }
 
 .item-card {
@@ -144,7 +152,14 @@ body > * > * {
   	display: inline-block;
   	vertical-align: top;
   	width: 220px;
-  	background: rgba(234, 255, 45, 0.2); /*для подсветки сетки*/
+  	font-size: 14px;
+  	margin-right: 20px;
+  	margin-bottom: 20px;
+   	background: rgba(234, 255, 45, 0.2); /*для подсветки сетки*/
+}
+
+.item-card:nth-child(3n) {
+  	margin-right: 0;
 }
 
 .item-card h2 {
@@ -154,7 +169,7 @@ body > * > * {
 
 .pagination {
 	clear: right;
-	margin-left: 225px;
+	margin-left: 240px;
 }
 
 li {
@@ -167,22 +182,31 @@ ul {
 	padding-left: 0;
 }
 
-.promo-title p {
-	width: 620px;
-	margin-left: auto;
-	margin-right: auto;
+.promo-title {
 	text-align: center;
 	background: rgba(234, 255, 45, 0.2); /*для подсветки сетки*/
 }
 
 .content-left-50 {
 	float: left;
-	width: 450px;
+	width: 460px;
 	background: rgba(234, 255, 45, 0.2); /*для подсветки сетки*/
 }
 
 .content-right-50 {
 	float: right;
-	width: 450px;
+	width: 460px;
 	background: rgba(234, 255, 45, 0.2); /*для подсветки сетки*/
+}
+
+.item-photo-small img {
+	position: relative;
+  	display: inline-block;
+  	vertical-align: top;
+  	width: 140px;
+	margin-right: 20px;
+}
+
+.item-photo-small img:last-child {
+	margin-right: 0;
 }
