@@ -190,6 +190,7 @@ ul {
 .content-left-50 {
 	float: left;
 	width: 460px;
+	font-size: 0px;
 	background: rgba(234, 255, 45, 0.2); /*для подсветки сетки*/
 }
 
